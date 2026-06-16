@@ -19,7 +19,7 @@
     <maven.compiler.plugin.version>3.13.0</maven.compiler.plugin.version>
     <surefire.version>3.2.5</surefire.version>
     <tpanda.gcc.plugin.version>0.4.0</tpanda.gcc.plugin.version>
-    <tpanda.gamepad.xinput.version>0.0.1</tpanda.gamepad.xinput.version>
+    <tpanda.gamepad.xinput.version>0.1.0</tpanda.gamepad.xinput.version>
     <!-- ビルド設定 -->
     <skipTests>true</skipTests>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -51,6 +51,7 @@
       <groupId>tpanda.gamepads</groupId>
       <artifactId>tpanda-gamepad-xinput-api</artifactId>
       <version>${tpanda.gamepad.xinput.version}</version>
+      <scope>provided</scope>
     </dependency>
     <dependency>
       <groupId>org.junit.jupiter</groupId>
